@@ -16,8 +16,8 @@ import 'package:orot/controller/mypage/myinfo_controller.dart';
 import 'package:orot/controller/mypage/myinfo_edit_controller.dart';
 import 'package:orot/controller/mypage/mypage_main_controller.dart';
 import 'package:orot/controller/mypage/notice_view_controller.dart';
-import 'package:orot/controller/mypage/terms_and_policies_list_controller.dart';
-import 'package:orot/controller/mypage/terms_and_policies_view_controller.dart';
+import 'package:orot/controller/mypage/terms_policies_list_controller.dart';
+import 'package:orot/controller/mypage/terms_policies_view_controller.dart';
 import 'package:orot/controller/mypage/version_information_controller.dart';
 import 'package:orot/controller/register/register_info_all_edit_page_controller.dart';
 import 'package:orot/controller/register/register_info_all_new_page_controller.dart';
@@ -338,11 +338,11 @@ class RouterPages {
           Get.put<CompanyInformationController>(CompanyInformationController());
         })),
     GetPage(
-        name: '/TermsAndPoliciesList',
-        page: () => TermsAndPoliciesList(),
+        name: '/TermsPoliciesList',
+        page: () => TermsPoliciesList(),
         binding: BindingsBuilder(() {
-          Get.put<TermsAndPoliciesListController>(
-              TermsAndPoliciesListController());
+          Get.put<TermsPoliciesListController>(
+              TermsPoliciesListController());
         })),
     GetPage(
         name: '/TermsAndPoliciesView',

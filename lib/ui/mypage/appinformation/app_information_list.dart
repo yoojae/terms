@@ -81,7 +81,7 @@ class AppInformationList extends GetView<AppInformationListController> {
             ),
             GestureDetector(
               onTap: () {
-                Get.toNamed('/TermsAndPoliciesList');
+                Get.toNamed('/TermsPoliciesList');
               },
               child: Container(
                 height: 67.h,

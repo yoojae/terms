@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:orot/controller/mypage/terms_and_policies_view_controller.dart';
+import 'package:orot/controller/mypage/terms_policies_view_controller.dart';
 import 'package:orot/global_asset/app_center_title.dart';
 
 import 'package:orot/global_asset/mypage_app_center.dart';
