@@ -163,7 +163,7 @@ class _MyAppState extends State<MyApp> {
                   //home: MyHomePage(),
                 }
               },
-              initialRoute: "ResisterTermsPage",
+              initialRoute: "MypageMain",
               getPages: RouterPages.routes,
             ));
   }
